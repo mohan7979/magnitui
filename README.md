@@ -1,11 +1,12 @@
-# Getting Started with Create React App
+# Employee levels of happiness and satisfaction survey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed with react js
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm i`
 ### `npm start`
 
 Runs the app in the development mode.\
