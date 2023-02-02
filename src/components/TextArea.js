@@ -4,12 +4,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Col from 'react-bootstrap/Col';
 
 function TextArea({ label, handleChild }) {
-    const [selected, setSelected] = useState();
-
-    const handleInputEmail = (event) => {
-        setSelected(event.target.value);
-    }
-
+    
     return (
         <FloatingLabel controlId="floatingTextarea2" label={label} style={styles.inputLabels}>
             <Form.Control

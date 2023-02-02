@@ -3,16 +3,7 @@ import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 
 function Select({ options, label, handleChild }) {
-    const [selected, setSelected] = useState();
-
-    const handleInputEmail = (event) => {
-        setSelected(event.target.value);
-    }
-
-    useEffect(() => {
-        console.log(options);
-    },[])
-
+    
     return (
         <>
             <Form.Label style={styles.questions}>{label}</Form.Label>
