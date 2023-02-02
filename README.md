@@ -1,6 +1,6 @@
 # Employee levels of happiness and satisfaction survey
 
-This project was developed with react js
+This project was developed with react js. This is employee survey project where employees can share their feedback on their work, stress, salary and company policies. The preview option will display a pie chart based on their selection. We categorizied pie chart in three colors based on company, personal and salary. Finally the employee can submit the form if the form is submitted successfully a modal will be displayed in the screen where optionally the employees can rate this application.
 
 ## Available Scripts
 
