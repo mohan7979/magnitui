@@ -1,0 +1,67 @@
+ .App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(54, 54, 54);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+
+.headerBg {
+  background-color: #cfcfcf !important;
+}
+
+.callBg {
+  background-color: green !important;
+}
+
+.boldFont {
+  font-weight: 'bold'!important;
+}
+
+.form-check-label {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.form-check-input:checked {
+  background-color: #1226aa !important;
+    border-color: #1226aa !important;
+}
+
+.pie {
+  width: 400px;
+  height: 400px;
+  background-image: conic-gradient(orange 64%, blue 17%, black);
+  border-radius: 50%
+}
